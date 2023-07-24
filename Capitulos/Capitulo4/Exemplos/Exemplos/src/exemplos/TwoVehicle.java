@@ -11,8 +11,8 @@ public class TwoVehicle {
     public static void main(String args[]) {
 
 
-        Vehicle minivan = new Vehicle();
-        Vehicle sportscar = new Vehicle();
+        Vehicle3 minivan = new Vehicle3();
+        Vehicle3 sportscar = new Vehicle3();
 
         int range1, range2;
 
@@ -38,9 +38,9 @@ public class TwoVehicle {
 
         System.out.println("Sportcar can carry : " + sportscar.passengers + " With a ranger of: " + range2);
 
-        Vehicle car1 = new Vehicle();
-        Vehicle car2 = car1;
-        Vehicle car3 = new Vehicle();
+        Vehicle3 car1 = new Vehicle3();
+        Vehicle3 car2 = car1;
+        Vehicle3 car3 = new Vehicle3();
 
         car1.mpg = 26;
 

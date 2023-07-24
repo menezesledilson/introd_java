@@ -4,8 +4,8 @@ public class AddMeth1 {
 
     public static void main(String[] args) {
 
-        Vehicle minivan = new Vehicle();
-        Vehicle sportscar = new Vehicle();
+        Vehicle3 minivan = new Vehicle3();
+        Vehicle3 sportscar = new Vehicle3();
 
         int range1, range2;
 
