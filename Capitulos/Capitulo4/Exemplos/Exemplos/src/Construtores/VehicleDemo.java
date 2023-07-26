@@ -8,7 +8,7 @@ public class VehicleDemo {
     private int mpg;        // consumo de combustível em milhas por galão
 
     // Esse é um construtor para Vehicle
-    VehicleDemo(int p, int f, int m) {
+    VehicleDemo(int p, int f, int m) {  //<----------- Construtor de Vehicle
         passengers = p;
         fuelcap = f;
         mpg = m;
@@ -33,6 +33,10 @@ public class VehicleDemo {
         int dist = 252;
 
         gallons = minivan.fuelneeded(dist);
+
+        System.out.println("To go " + dist + " miles, sportscar needs " + gallons + " gallons of fuel.");
+
+        gallons = sportscar.fuelneeded(dist);
 
         System.out.println("To go " + dist + " miles, sportscar needs " + gallons + " gallons of fuel.");
     }
