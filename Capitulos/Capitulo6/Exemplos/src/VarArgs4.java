@@ -12,6 +12,6 @@ public class VarArgs4 {
 
         vaTest(true,false,false); //ok
 
-        vaTest(); // Erro ambíguo
+        //vaTest(); // Erro ambíguo
     }
 }
