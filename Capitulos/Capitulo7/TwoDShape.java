@@ -13,7 +13,7 @@ public class TwoDShape {
 }
 
 //Uma subclasse de  twoDshaoe para triangulos.
-class Triangle extends TwoDShape1 {
+class Triangle7 extends TwoDShape1 {
     String style;
     private double height2;
     private double width2;
