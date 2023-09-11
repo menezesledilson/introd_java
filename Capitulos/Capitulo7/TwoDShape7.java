@@ -47,29 +47,29 @@ public class TwoDShape7 {
 }
 
 // Correção: Renomeie a classe triangle para Triangle (case-sensitive)
-class Triangle extends TwoDShape7 {
+class Triangle7 extends TwoDShape7 {
     private String style;
 
     // Correção: Corrija o nome do construtor padrão para Triangle (case-sensitive)
-    Triangle() {
+    Triangle7() {
         super();
         style = "none";
     }
 
     // Correção: Corrija o nome do construtor parametrizado para Triangle (case-sensitive)
-    Triangle(String s, double w, double h) {
+    Triangle7(String s, double w, double h) {
         super(w, h);
         style = s;
     }
 
     // Correção: Corrija o nome do construtor com um argumento para Triangle (case-sensitive)
-    Triangle(double x) {
+    Triangle7(double x) {
         super(x);
         style = "filled";
     }
 
     // Correção: Corrija o nome do construtor a partir de outro objeto para Triangle (case-sensitive)
-    Triangle(Triangle ob) {
+    Triangle7(Triangle7 ob) {
         super(ob);
         style = ob.style;
     }
@@ -86,10 +86,10 @@ class Triangle extends TwoDShape7 {
  class Shape7 {
     public static void main(String[] args) {
         // Correção: Use o nome correto da classe Triangle (case-sensitive) ao criar objetos
-        Triangle t1 = new Triangle("outlined", 8.0, 12.0);
+        Triangle7 t1 = new Triangle7("outlined", 8.0, 12.0);
 
         // Correção: Use o nome correto da classe Triangle (case-sensitive) ao criar objetos
-        Triangle t2 = new Triangle(t1);
+        Triangle7 t2 = new Triangle7(t1);
 
         System.out.println("Info for t1: ");
         t1.showStyle();
